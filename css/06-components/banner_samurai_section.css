@@ -1,0 +1,115 @@
+  /* Banner Samurai */
+  .banner-samurai {
+    height: 465px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    box-shadow: 0 0 70px var(--color-white);
+
+    & img {
+      width: 100%;
+      height: auto;
+      transition: transform var(--transitions-time-3);
+    }
+
+    &:hover img {
+      transform: scale(1.2);
+    }
+
+    & h3 {
+      position: relative;
+      font-family: var(--font-primary);
+      font-size: var(--font-size-30);
+    }
+
+    & p {
+      position: relative;
+      font-family: var(--font-primary);
+      font-size: small;
+      margin-top: 30px;
+      color: var(--color-grey);
+    }
+
+    & a {
+      position: relative;
+      font-family: var(--font-secondary);
+      font-size: var(--font-size-2);
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+      padding: 20px;
+    }
+
+    & div {
+      width: 40%;
+      height: auto;
+      text-align: left;
+      margin-left: 50%;
+      margin-top: -325px;
+    }
+
+    .new-releases {
+      position: relative;
+      font-family: var(--font-secondary);
+      font-size: var(--font-size-5);
+      text-transform: uppercase;
+      margin-top: 0;
+      color: var(--color-grey);
+
+      &::before {
+        content: "";
+        position: absolute;
+        margin-top: -35px;
+        width: 70px;
+        height: 3px;
+        border-radius: 100%;
+        background-color: var(--color-red);
+      }
+    }
+
+    .hbo-series {
+      position: relative;
+      font-family: var(--font-secondary);
+      font-size: var(--font-size-4);
+      margin-bottom: -55px;
+      color: var(--color-black);
+    }
+
+    .season {
+      position: relative;
+      font-family: var(--font-secondary);
+      font-size: var(--font-size-4);
+      margin-left: 90px;
+      margin-top: 39px;
+      color: var(--color-black);
+    }
+
+    .more-information-icon {
+      position: absolute;
+      margin-top: 3px;
+      margin-left: 0;
+    }
+
+    .view-more-information {
+      color: var(--color-red);
+
+      &:hover {
+        color: var(--color-black-grey);
+        transition: all var(--transitions-time-1);
+      }
+    }
+
+    .watch-trailer-icon {
+      position: absolute;
+      margin-top: 3px;
+      margin-left: 178px;
+    }
+
+    .watch-trailer {
+      color: var(--color-grey);
+
+      &:hover {
+        color: var(--color-black-grey);
+        transition: all var(--transitions-time-1);
+      }
+    }
+  }

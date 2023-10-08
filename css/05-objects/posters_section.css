@@ -1,0 +1,129 @@
+/* Posters section */
+.poster-container {
+    width: 100%;
+    display: flex;
+
+    & div {
+        margin-top: 450px;
+        padding: 40px;
+        transition: all var(--transitions-time-1);
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            margin-top: -20px;
+            background-color: var(--color-red);
+        }
+    }
+
+
+
+    .poster {
+        width: 25%;
+        height: 657px;
+        background-image: linear-gradient(to top,
+                var(--color-black-grey) 5%,
+                transparent 100%), url(/assets/images/MicrosoftTeams-image-18.png);
+        background-size: cover;
+        background-position: center;
+
+        &:hover div {
+            margin-top: 335px;
+        }
+
+        &:nth-child(2) {
+            background-image: linear-gradient(to top,
+                    var(--color-black-grey) 5%,
+                    transparent 100%), url(/assets/images/MicrosoftTeams-image-17.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        &:nth-child(3) {
+            background-image: linear-gradient(to top,
+                    var(--color-black-grey) 5%,
+                    transparent 100%), url(/assets/images/MicrosoftTeams-image-15.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        &:nth-last-child(1) {
+            background-image: linear-gradient(to top,
+                    var(--color-black-grey) 5%,
+                    transparent 100%), url(/assets/images/MicrosoftTeams-image-16.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .poster-film-title {
+            font-family: var(--font-primary);
+            font-size: var(--font-size-25);
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            text-decoration: none;
+            color: var(--color-white);
+        }
+
+        & h2 {
+            font-family: var(--font-secondary);
+            font-size: var(--font-size-4);
+            text-decoration: none;
+            text-transform: capitalize;
+            margin-top: -12px;
+            color: var(--color-grey);
+        }
+
+        & button {
+            font-family: var(--font-primary);
+            font-size: var(--font-size-2);
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            margin-top: 60px;
+            border-radius: 20px;
+            padding: 10px;
+            cursor: pointer;
+            border-color: var(--color-red);
+            background-color: var(--color-transparent-red);
+            color: var(--color-white);
+            transition: all var(--transitions-time-1);
+            opacity: 0;
+        }
+
+        &:hover button {
+            opacity: 1;
+        }
+
+        .more-information-link {
+            font-family: var(--font-primary);
+            font-size: var(--font-size-2);
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            text-decoration: none;
+            color: var(--color-white);
+            margin-left: 40px;
+            transition: all var(--transitions-time-1);
+            opacity: 0;
+
+            &:hover {
+                text-shadow: 0px 0px 30px var(--color-red);
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 144px;
+                    height: 1px;
+                    margin-top: 90px;
+                    box-shadow: 0 0 30px rgb(255, 0, 0);
+                    transition: all var(--transitions-time-1);
+                    background-color: var(--color-red);
+                }
+            }
+        }
+
+        &:hover .more-information-link {
+            opacity: 1;
+        }
+    }
+}

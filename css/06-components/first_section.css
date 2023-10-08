@@ -1,0 +1,57 @@
+/* SECCIÓN (IMAGEN)PRINCIPAL */
+
+.imagen-principal {
+    margin-top: 50px;
+    margin-left: 75px;
+
+    .info-imagen-principal {
+        position: absolute;
+        width: 600px;
+        height: 300px;
+        margin-left: 920px;
+        margin-top: -280px;
+        background-color: var(--color-primary);
+
+        & h3 {
+            font-family: var(--font-primary);
+            font-size: var(--font-size-35);
+            font: uppercase;
+            margin-left: 10px;
+            margin-top: 0px;
+            padding-block-start: 30px;
+            padding-inline-start: 30px;
+            color: var(--color-white);
+        }
+
+        & p {
+            font-family: var(--font-primary);
+            margin-inline: 40px;
+            margin-block: -10px;
+            color: var(--color-grey);
+        }
+
+        & a {
+            position: absolute;
+            font-size: var(--font-size-8);
+            font-family: var(--font-primary);
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-left: 38px;
+            margin-top: 39px;
+            color: var(--color-white);
+        }
+
+        .flecha-roja {
+            position: inherit;
+            margin-inline-start: 148px;
+            margin-block-start: 8px;
+            color: var(--color-red);
+        }
+    }
+
+    & a:hover {
+        color: var(--color-red);
+        text-shadow: 0 0 10px rgb(255, 0, 0);
+        transition: all var(--transitions-time-1);
+    }
+}
