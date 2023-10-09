@@ -24,7 +24,7 @@
         width: 25%;
         height: 657px;
         background-image: linear-gradient(to top,
-                var(--color-black-grey) 5%,
+                #212121 20%,
                 transparent 100%), url(/assets/images/poster_inferno.webp);
         background-size: cover;
         background-position: center;
@@ -35,7 +35,7 @@
 
         &:nth-child(2) {
             background-image: linear-gradient(to top,
-                    var(--color-black-grey) 5%,
+                    #212121 20%,
                     transparent 100%), url(/assets/images/poster_bandofbrothers.webp);
             background-size: cover;
             background-position: center;
@@ -43,7 +43,7 @@
 
         &:nth-child(3) {
             background-image: linear-gradient(to top,
-                    var(--color-black-grey) 5%,
+                    #212121 20%,
                     transparent 100%), url(/assets/images/poster_gladiator.webp);
             background-size: cover;
             background-position: center;
@@ -51,8 +51,8 @@
 
         &:nth-last-child(1) {
             background-image: linear-gradient(to top,
-                    var(--color-black-grey) 5%,
-                    transparent 100%), url(/assets/images/poster_piratesbay.webp);
+                    #212121 20%,
+                    transparent 100%), url(/assets/images/poster_spiderman.webp);
             background-size: cover;
             background-position: center;
         }
@@ -80,15 +80,37 @@
             font-size: var(--font-size-2);
             font-weight: bold;
             letter-spacing: 0.3px;
+            --hover-shadows: 16px 16px 33px #121212,
+                -16px -16px 33px #303030;
+            --accent: var(--color-red);
+            width: fit-content;
             margin-top: 60px;
-            border-radius: 20px;
-            padding: 10px;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 1.1em;
+            outline: none;
             cursor: pointer;
             border-color: var(--color-red);
-            background-color: var(--color-transparent-red);
+            background-color: #212121;
             color: var(--color-white);
+            transition: box-shadow ease-in-out 0.3s,
+                background-color ease-in-out 0.1s,
+                transform ease-in-out 0.1s;
+            box-shadow: 13px 13px 10px #1c1c1c,
+                -13px -13px 10px #262626;
             transition: all var(--transitions-time-2);
             opacity: 0;
+
+            &:active {
+                box-shadow: var(--hover-shadows),
+                    var(--accent) 0px 0px 30px 5px;
+                background-color: var(--accent);
+                transform: scale(0.95);
+            }
+
+            &:hover {
+                box-shadow: var(--hover-shadows);
+            }
         }
 
         &:hover button {
@@ -102,7 +124,7 @@
             letter-spacing: 0.3px;
             text-decoration: none;
             color: var(--color-white);
-            margin-left: 40px;
+            margin-left: 20px;
             transition: all var(--transitions-time-2);
             opacity: 0;
 

@@ -6,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-top: -4px;
-  background-color: var(--color-red);
+  background-color: var(--color-red-dark);
 
   & img {
     border-radius: 50%;
@@ -62,7 +62,5 @@
         opacity: 1;
       }
     }
-
-
   }
 }

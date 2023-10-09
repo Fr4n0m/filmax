@@ -86,7 +86,6 @@
                 color: var(--color-white);
                 transition: border-color var(--transitions-time-1);
 
-
                 &::placeholder {
                     color: var(--color-grey);
                 }
@@ -111,16 +110,14 @@
                 stroke-width: 1.5px;
                 cursor: pointer;
             }
-
-
         }
     }
 
     .socialnetworks-buttons {
         width: auto;
         justify-content: center;
-        margin-top: 100px;
-        margin-right: 240px;
+        margin-top: 92px;
+        margin-right: 220px;
         float: right;
 
         & ul {
@@ -128,7 +125,7 @@
             flex-direction: column;
 
             & li {
-                padding-top: 10px;
+                padding-top: 15px;
 
                 & button {
                     font-family: var(--font-secondary);
@@ -138,8 +135,8 @@
                     display: flex;
                     align-items: center;
                     justify-content: flex-start;
-                    width: 120px;
-                    height: 28px;
+                    width: 150px;
+                    height: 37px;
                     border: none;
                     padding: 0 10px;
                     cursor: pointer;
@@ -167,7 +164,7 @@
 
                     .twitter-icon {
                         position: absolute;
-                        margin-left: 85px;
+                        margin-left: 110px;
                         transition: all var(--transitions-time-2);
                     }
 
@@ -185,7 +182,7 @@
 
                     .facebook-icon {
                         position: absolute;
-                        margin-left: 85px;
+                        margin-left: 110px;
                         transition: all var(--transitions-time-2);
                     }
 
@@ -203,7 +200,7 @@
 
                     .instagram-icon {
                         position: absolute;
-                        margin-left: 85px;
+                        margin-left: 110px;
                         transition: all var(--transitions-time-2);
                     }
 
@@ -221,7 +218,7 @@
 
                     .youtube-icon {
                         position: absolute;
-                        margin-left: 85px;
+                        margin-left: 110px;
                         transition: all var(--transitions-time-2);
                     }
 
