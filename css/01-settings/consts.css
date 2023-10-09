@@ -30,10 +30,18 @@
     --color-grey: #7a7a7a;
     --color-black: black;
     --color-black-grey: #333;
+
     --color-twitter: #1DA1F2;
+    --color-twitter-dark: #177dbc;
+
     --color-facebook: #4267B2;
+    --color-facebook-dark: #304b81;
+
     --color-instagram: #C13584;
+    --color-instagram-dark: #8c2760;
+
     --color-youtube: #FF0000;
+    --color-youtube-dark: #b50202;
 
     --color-transparent: transparent;
     --color-transparent-white: #ffffff32;
@@ -46,7 +54,5 @@
     --transitions-time-2: 0.2s;
     --transitions-time-3: 3s;
     --transitions-time-4: 1s;
-
-
 }
 
