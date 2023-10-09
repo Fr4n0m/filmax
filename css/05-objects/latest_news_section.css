@@ -53,7 +53,7 @@
         &:first-child {
             position: relative;
             grid-row: 1/3;
-            background-image: url(/assets/images/MicrosoftTeams-image-5.png);
+            background-image: url(/assets/images/latestnews_image_1.webp);
 
             &::before {
                 content: "";
@@ -68,7 +68,7 @@
                 box-shadow: 80px 80px 30px var(--color-transparent-black);
                 cursor: pointer;
                 transform: scale(1.1)  translate(-40px);
-                transition: all var(--transitions-time-3);
+                transition: all var(--transitions-time-1);
 
                 & h3 {
                     text-shadow: 0px 0px 30px var(--color-red);
@@ -110,7 +110,7 @@
 
         &:nth-child(2) {
             position: relative;
-            background-image: url(/assets/images/MicrosoftTeams-image-10.png);
+            background-image: url(/assets/images/latestnews_image_2.webp);
 
             &::before {
                 content: "";
@@ -125,7 +125,7 @@
                 box-shadow: 0 80px 30px var(--color-transparent-black-2);
                 cursor: pointer;
                 transform: scale(1.1) translateY(-60px);
-                transition: all var(--transitions-time-3);
+                transition: all var(--transitions-time-1);
 
                 & h3 {
                     text-shadow: 0px 0px 30px var(--color-red);
@@ -167,7 +167,7 @@
 
         &:nth-child(3) {
             position: relative;
-            background-image: url(/assets/images/MicrosoftTeams-image-7.png);
+            background-image: url(/assets/images/latestnews_image_3.webp);
             background-position: center;
 
             &::before {
@@ -183,7 +183,7 @@
                 box-shadow: -70px 80px 30px var(--color-transparent-black-2);
                 cursor: pointer;
                 transform: scale(1.3) translateX(50px) translateY(-50px);
-                transition: all var(--transitions-time-3);
+                transition: all var(--transitions-time-1);
 
                 & h3 {
                     text-shadow: 0px 0px 30px var(--color-red);
@@ -225,7 +225,7 @@
 
         &:last-child {
             position: relative;
-            background-image: url(/assets/images/MicrosoftTeams-image-8.png);
+            background-image: url(/assets/images/latestnews_image_4.webp);
             grid-column: span 2;
 
             &::before {
@@ -241,7 +241,7 @@
                 box-shadow: -50px -50px 30px var(--color-transparent-black-2);
                 cursor: pointer;
                 transform: scale(1.2) translateY(30px) translateX(60px);
-                transition: all var(--transitions-time-3);
+                transition: all var(--transitions-time-1);
 
                 & h3 {
                     text-shadow: 0px 0px 30px var(--color-red);

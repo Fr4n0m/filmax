@@ -33,6 +33,7 @@
         position: absolute;
         font-family: var(--font-secondary);
         font-size: var(--font-size-7);
+        font-weight: bold;
         text-decoration: none;
         list-style: none;
         width: fit-content;
@@ -44,19 +45,16 @@
         color: var(--color-white);
 
         & ul {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(1, 1fr);
+            display: flex;
+            flex-direction: column;
             width: fit-content;
             
             & li {
                 margin-top: 17px;
-                font-weight: bold;
             }
         }
 
         & a {
-            
             color: var(--color-grey);
             text-decoration: none;
             font-weight: normal;
