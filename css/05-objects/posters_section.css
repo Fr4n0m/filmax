@@ -137,7 +137,7 @@
                     width: 144px;
                     height: 1px;
                     margin-top: 90px;
-                    box-shadow: 0 0 30px rgb(255, 0, 0);
+                    box-shadow: 0 0 30px var(--color-red);
                     transition: all var(--transitions-time-1);
                     background-color: var(--color-red);
                 }

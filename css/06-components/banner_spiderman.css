@@ -1,0 +1,9 @@
+.banner-spiderman {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    background-color: var(--color-black);
+    box-shadow: 0 0 50px var(--color-black);
+}

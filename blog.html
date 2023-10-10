@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/styles.css" />
 
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="scripts.js"></script>
 </head>
 
@@ -124,6 +125,382 @@
 
     <main>
 
+        <!-- banner película y aside -->
+        <section>
+            <div class="banner-spiderman">
+                <img src="assets/images/banner_spiderman.webp" alt="Spider-Man">
+            </div>
+
+            <aside class="blog-aside">
+                <img src="assets/images/poster_spiderman.webp" alt="Spiderman - No Way Home">
+
+                <nav class="watch-buttons">
+
+                    <!-- apple tv icon -->
+                    <button class="appletv-button">
+                        <svg width="30px" height="30px" viewBox="0 0 24 24" role="img"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Apple TV icon</title>
+                            <path
+                                d="M20.57 17.735h-1.815l-3.34-9.203h1.633l2.02 5.987c.075.231.273.9.586 2.012l.297-.997.33-1.006 2.094-6.004H24zm-5.344-.066a5.76 5.76 0 0 1-1.55.207c-1.23 0-1.84-.693-1.84-2.087V9.646h-1.063V8.532h1.121V7.081l1.476-.602v2.062h1.707v1.113H13.38v5.805c0 .446.074.75.214.932.14.182.396.264.75.264.207 0 .495-.041.883-.115zm-7.29-5.343c.017 1.764 1.55 2.358 1.567 2.366-.017.042-.248.842-.808 1.658-.487.71-.99 1.418-1.79 1.435-.783.016-1.03-.462-1.93-.462-.89 0-1.17.445-1.913.478-.758.025-1.344-.775-1.838-1.484-.998-1.451-1.765-4.098-.734-5.88.51-.89 1.426-1.451 2.416-1.46.75-.016 1.468.512 1.93.512.461 0 1.327-.627 2.234-.536.38.016 1.452.157 2.136 1.154-.058.033-1.278.743-1.27 2.219M6.468 7.988c.404-.495.685-1.18.61-1.864-.585.025-1.294.388-1.723.883-.38.437-.71 1.138-.619 1.806.652.05 1.328-.338 1.732-.825Z" />
+                        </svg>
+                    </button>
+
+                    <!-- netflix icon -->
+                    <button class="netflix-button">
+                        <svg width="40px" height="40px" viewBox="0 -140 512 512" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            preserveAspectRatio="xMidYMid">
+                            <g>
+                                <path
+                                    d="M340.657183,0 L340.657183,100.203061 C353.016406,100.778079 365.344207,101.473198 377.637095,102.293306 L377.637095,123.537553 C358.204486,122.242243 338.690182,121.253471 319.094879,120.57923 L319.094879,0 L340.657183,0 Z M512,0.0118710746 L483.922918,65.1060972 L511.993017,137.54371 L511.961595,137.557485 C503.784957,136.3909 495.597845,135.289637 487.386294,134.233936 L471.623048,93.5776798 L455.709676,130.459835 C448.168455,129.627123 440.61676,128.839275 433.047609,128.100899 L460.419447,64.6708546 L435.351871,0.0118710746 L458.677285,0.0118710746 L472.712335,36.1957639 L488.318473,0.0118710746 L512,0.0118710746 Z M245.093161,119.526252 L245.092462,0.0114869428 L305.282574,0.0114869428 L305.282574,21.4467074 L266.654767,21.4467074 L266.654767,49.2277266 L295.881884,49.2277266 L295.881884,70.4719734 L266.654767,70.4719734 L266.654767,119.521329 L245.093161,119.526252 Z M164.580156,21.448488 L164.579458,0.0103695593 L231.270382,0.0103695593 L231.270382,21.4469875 L208.705375,21.4469875 L208.705375,120.107799 C201.508397,120.296154 194.3191,120.519389 187.144466,120.790104 L187.144466,21.448488 L164.580156,21.448488 Z M90.8682168,126.966224 L90.8682168,0.0139657936 L150.758077,0.0139657936 L150.758077,21.4491862 L112.42703,21.4491862 L112.42703,50.4849807 C121.233151,50.3722116 133.754021,50.2444297 141.543822,50.2632828 L141.543822,71.5092753 C131.792954,71.388127 120.786264,71.6429923 112.42703,71.7264345 L112.42703,103.88974 C125.166805,102.887736 137.944984,102.011069 150.758077,101.270912 L150.758077,122.517253 C130.704017,123.672422 110.740031,125.160591 90.8682168,126.966224 Z M48.5710466,77.8540254 L48.5696502,0.0104745953 L70.1319549,0.0104745953 L70.1319549,128.968837 C62.2496338,129.779728 54.3823252,130.642465 46.5286328,131.553346 L21.5609083,59.8244682 L21.5609083,134.625696 C14.3597408,135.563565 7.17323695,136.54141 0,137.562338 L0,0.0118710746 L20.4911722,0.0118710746 L48.5710466,77.8540254 Z M395.425298,124.819071 L395.425298,124.819211 L395.425298,0.0120101224 L416.987603,0.0120101224 L416.987603,126.599777 C409.809478,125.960833 402.624371,125.369895 395.425298,124.819071 Z"
+                                    fill-rule="nonzero">
+
+                                </path>
+                            </g>
+                        </svg>
+                    </button>
+
+                    <!-- watch now -->
+                    <button class="watch-button">
+                        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.4086 9.35258C23.5305 10.5065 23.5305 13.4935 21.4086 14.6474L8.59662 21.6145C6.53435 22.736 4 21.2763 4 18.9671L4 5.0329C4 2.72368 6.53435 1.26402 8.59661 2.38548L21.4086 9.35258Z" />
+                        </svg>
+                        <span>WATCH NOW</span>
+                    </button>
+                </nav>
+
+                <nav class="nav-aside">
+                    <ul>
+                        <li>
+                            <button>
+                                Sinopsis
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                Actors
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                Comments
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                Latest News
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+
+        <!-- Sección principal movie_info -->
+        <section class="movie-info">
+            <section class="title">
+                <h1>SPIDER-MAN: NO WAY HOME</h1>
+                <div class="info-container">
+                    <h3>2021</h3>
+                    <h4>Action</h4>
+                </div>
+            </section>
+
+            <section class="sinopsis">
+                <h2>SINOPSIS</h2>
+                <p>
+                    "Spider-Man: No Way Home" es una película de superhéroes basada en el personaje de Marvel Comics,
+                    Spider-Man, y
+                    forma parte del Universo Cinematográfico de Marvel (MCU). La película sigue las aventuras de Peter
+                    Parker,
+                    interpretado por Tom Holland, quien lucha por mantener en secreto su identidad como Spider-Man tras
+                    la
+                    revelación pública de su verdadera identidad al final de la película anterior, "Spider-Man: Lejos de
+                    Casa".
+
+                    La película presenta un elenco estelar que incluye a actores conocidos en el mundo de Spider-Man,
+                    como Zendaya
+                    en el papel de MJ, Jacob Batalon como Ned, y Marisa Tomei como May Parker. Además, "No Way Home"
+                    incluye la
+                    aparición de personajes y actores de las películas de Spider-Man anteriores, interpretando a
+                    versiones
+                    alternativas de los personajes conocidos. Esto ha generado una gran expectación entre los fanáticos
+                    y ha llevado
+                    a especulaciones sobre la inclusión de los actores Tobey Maguire y Andrew Garfield en la película.
+
+                    La trama de "No Way Home" gira en torno a la búsqueda de Peter Parker de una solución para hacer que
+                    el mundo
+                    olvide su identidad como Spider-Man, lo que lo lleva a recurrir a la ayuda de Doctor Strange,
+                    interpretado por
+                    Benedict Cumberbatch. Sin embargo, un hechizo mal ejecutado desencadena la aparición de villanos de
+                    realidades
+                    alternativas, lo que obliga a Spider-Man a enfrentarse a amenazas como el Duende Verde, Electro y el
+                    Doctor
+                    Octopus, interpretados por Willem Dafoe, Jamie Foxx y Alfred Molina, respectivamente.
+
+                    La película promete una emocionante mezcla de acción, drama y elementos de ciencia ficción, así como
+                    una
+                    exploración de la identidad y las consecuencias de las decisiones de Peter Parker. "Spider-Man: No
+                    Way Home" ha
+                    generado un gran entusiasmo entre los fanáticos de Marvel y promete ser un evento cinematográfico
+                    muy esperado
+                    en el MCU.
+                </p>
+            </section>
+
+            <section class="actors">
+                <h2>ACTORS AND ACTRESSES</h2>
+
+                <section class="actors-section">
+
+                    <ul class="actors-container">
+                        <li class="tom-holland">
+                            <img src="assets/images/tom_holland.webp" alt="Tom Holland">
+                            <h3>Tom Holland</h3>
+                            <h4>Peter Parker / Spider-Man</h4>
+                        </li>
+                        <li>
+                            <img src="assets/images/zendaya.webp" alt="Zendaya">
+                            <h3>Zendaya</h3>
+                            <h4>Michelle 'MJ' Jones</h4>
+                        </li>
+                        <li class="benedictcup">
+                            <img src="assets/images/benedictcup.webp" alt="Benedict Cumberbatch">
+                            <h3>Benedict Cumberbatch</h3>
+                            <h4>Stephen Strange / Dr Strange</h4>
+                        </li>
+                        <li class="jacob">
+                            <img src="assets/images/jacob.webp" alt="Jacob Batalon">
+                            <h3>Jacob Batalon</h3>
+                            <h4>Ned Leeds</h4>
+                        </li>
+                        <li class="favreau">
+                            <img src="assets/images/jonhfavreau.webp" alt="Jon Favreau">
+                            <h3>Jon Favreau</h3>
+                            <h4>Harold 'Happy' Hogan</h4>
+                        </li>
+                        <li>
+                            <img src="assets/images/jamiefoxx.webp" alt="Jamie Foxx">
+                            <h3>Jamie Foxx</h3>
+                            <h4>Max Dillon / Electro</h4>
+                        </li>
+                        <li class="dafoe">
+                            <img src="assets/images/willemdafoe.webp" alt="Willem Dafoe">
+                            <h3>Willem Dafoe</h3>
+                            <h4>Norman Osborn / Green Goblin</h4>
+                        </li>
+                        <li class="molina">
+                            <img src="assets/images/alfredmolina.webp" alt="Alfred Molina">
+                            <h3>Alfred Molina</h3>
+                            <h4>Dr. Otto Octavius / Doctor Octopus</h4>
+                        </li>
+                        <li class="wong">
+                            <img src="assets/images/beneditwong.webp" alt="Benedict Wong">
+                            <h3>Benedict Wong</h3>
+                            <h4>Wong</h4>
+                        </li>
+                        <li class="revolori">
+                            <img src="assets/images/tonyrevolori.webp" alt="Tony Revolori">
+                            <h3>Tony Revolori</h3>
+                            <h4>Eugene 'Flash' Thompson</h4>
+                        </li>
+                        <li class="marisa">
+                            <img src="assets/images/marisatomei.webp" alt="Marisa Tomei">
+                            <h3>Marisa Tomei</h3>
+                            <h4>Wong</h4>
+                        </li>
+                        <li class="andrew">
+                            <img src="assets/images/andrewgarfield.webp" alt="Andrew Garfield">
+                            <h3>Andrew Garfield</h3>
+                            <h4>Peter Parker / Spider-Man</h4>
+                        </li>
+                        <li class="tobey">
+                            <img src="assets/images/tobeymaguire.webp" alt="">
+                            <h3>Tobey Maguire</h3>
+                            <h4>Peter Parker / Spider-Man</h4>
+                        </li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <section class="review">
+                <h2>OUR REVIEW</h2>
+                <p>"Spider-Man: No Way Home” es una película de orígenes que se pregunta qué significa, realmente, ser
+                    Spider-Man. La película es una máquina muy bien
+                    engrasada que comienza habiendo arrancado hace tiempo. A diferencia de “Homecoming” y “Lejos de
+                    Casa”, “No Way
+                    Home” aprovecha el impulso que lleva tomando el personaje desde “Endgame” para catapultarse hacia el
+                    punto más
+                    alto que cualquier Spider-Man haya alcanzado nunca. Estamos ante la mejor película de Spider-Man
+                    hasta el
+                    momento (aunque no muy alejada de “Spider-Man: Un Nuevo Universo”). Los efectos especiales y la
+                    acción van en un
+                    crecimiento constante (a mejor) a lo largo de la película sin importar cuanto machaque a Spider-Man.
+                    No hay
+                    descanso para el Spidey. Nunca lo hay y finalmente hemos visto al Peter Parker de Tom Holland
+                    llevado al extremo
+                    más oscuro que Disney ha permitido. ¡Y qué bien le hubiese venido un poco más de oscuridad! El
+                    contraste con los
+                    momentos en los que la amistad y el amor con MJ (Zendaya), Tía May (Marisa Tomei) y Ned (Jacob
+                    Batalon) brillan
+                    con más fuerza, hubiese sido muchísimo más intenso.</p>
+            </section>
+
+            <section class="trailer">
+                <h2>TRAILER</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ldMn-1iQzKE" frameborder="0"
+                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Df00ZNYEcAY&pp=ygUTdHJhaWxlciBubyB3YXkgaG9tZQ%3D%3D" frameborder="0"
+                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=iaD2f2O9wGk&pp=ygUTdHJhaWxlciBubyB3YXkgaG9tZQ%3D%3D" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+        </section>
+
+        <!-- Sección comentarios -->
+        <section>
+            <div class="comments-container">
+                <article class="comment">
+                    <img src="/assets/images/comment_image_1.webp" alt="Comments">
+                    <span>
+                        <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 20 349 349"
+                            xml:space="preserve">
+                            <g>
+                                <path d="M198.779,322.441v-58.245c0-7.903,6.406-14.304,14.304-14.304c28.183,0,43.515-28.904,45.643-85.961h-45.643
+                                c-7.897,0-14.304-6.41-14.304-14.304V26.64c0-7.9,6.406-14.301,14.304-14.301h121.69c7.896,0,14.305,6.408,14.305,14.301v122.988
+                                c0,27.349-2.761,52.446-8.181,74.611c-5.568,22.722-14.115,42.587-25.398,59.049c-11.604,16.917-26.132,30.192-43.155,39.437
+                                c-17.152,9.304-37.09,14.026-59.267,14.026C205.186,336.745,198.779,330.338,198.779,322.441z M14.301,249.887
+                                C6.404,249.887,0,256.293,0,264.185v58.257c0,7.896,6.404,14.298,14.301,14.298c22.166,0,42.114-4.723,59.255-14.026
+                                c17.032-9.244,31.558-22.508,43.161-39.437c11.29-16.462,19.836-36.328,25.404-59.061c5.423-22.165,8.178-47.263,8.178-74.6V26.628
+                                c0-7.9-6.41-14.301-14.304-14.301H14.301C6.404,12.327,0,18.734,0,26.628v122.988c0,7.899,6.404,14.304,14.301,14.304h45.002
+                                C57.201,220.982,42.09,249.887,14.301,249.887z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <h2>"It was so much fun for all of my friends and family."</h2>
+                    <div>
+                        <h1>LISA MORRISON</h1>
+                        <h3>Film Expert</h3>
+                    </div>
+                </article>
+    
+                <article class="comment">
+                    <img src="/assets/images/comment_image_2.webp" alt="Comments">
+                    <span>
+                        <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 20 349 349"
+                            xml:space="preserve">
+                            <g>
+                                <path d="M198.779,322.441v-58.245c0-7.903,6.406-14.304,14.304-14.304c28.183,0,43.515-28.904,45.643-85.961h-45.643
+                                c-7.897,0-14.304-6.41-14.304-14.304V26.64c0-7.9,6.406-14.301,14.304-14.301h121.69c7.896,0,14.305,6.408,14.305,14.301v122.988
+                                c0,27.349-2.761,52.446-8.181,74.611c-5.568,22.722-14.115,42.587-25.398,59.049c-11.604,16.917-26.132,30.192-43.155,39.437
+                                c-17.152,9.304-37.09,14.026-59.267,14.026C205.186,336.745,198.779,330.338,198.779,322.441z M14.301,249.887
+                                C6.404,249.887,0,256.293,0,264.185v58.257c0,7.896,6.404,14.298,14.301,14.298c22.166,0,42.114-4.723,59.255-14.026
+                                c17.032-9.244,31.558-22.508,43.161-39.437c11.29-16.462,19.836-36.328,25.404-59.061c5.423-22.165,8.178-47.263,8.178-74.6V26.628
+                                c0-7.9-6.41-14.301-14.304-14.301H14.301C6.404,12.327,0,18.734,0,26.628v122.988c0,7.899,6.404,14.304,14.301,14.304h45.002
+                                C57.201,220.982,42.09,249.887,14.301,249.887z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <h2>"I appreciate the high quality of your products."</h2>
+                    <div>
+                        <h1>MIKE STEVENS</h1>
+                        <h3>Film Expert</h3>
+                    </div>
+                </article>
+    
+                <article class="comment">
+                    <img src="/assets/images/comment_image_3.webp" alt="Comments">
+                    <span>
+                        <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 20 349 349"
+                            xml:space="preserve">
+                            <g>
+                                <path d="M198.779,322.441v-58.245c0-7.903,6.406-14.304,14.304-14.304c28.183,0,43.515-28.904,45.643-85.961h-45.643
+                                c-7.897,0-14.304-6.41-14.304-14.304V26.64c0-7.9,6.406-14.301,14.304-14.301h121.69c7.896,0,14.305,6.408,14.305,14.301v122.988
+                                c0,27.349-2.761,52.446-8.181,74.611c-5.568,22.722-14.115,42.587-25.398,59.049c-11.604,16.917-26.132,30.192-43.155,39.437
+                                c-17.152,9.304-37.09,14.026-59.267,14.026C205.186,336.745,198.779,330.338,198.779,322.441z M14.301,249.887
+                                C6.404,249.887,0,256.293,0,264.185v58.257c0,7.896,6.404,14.298,14.301,14.298c22.166,0,42.114-4.723,59.255-14.026
+                                c17.032-9.244,31.558-22.508,43.161-39.437c11.29-16.462,19.836-36.328,25.404-59.061c5.423-22.165,8.178-47.263,8.178-74.6V26.628
+                                c0-7.9-6.41-14.301-14.304-14.301H14.301C6.404,12.327,0,18.734,0,26.628v122.988c0,7.899,6.404,14.304,14.301,14.304h45.002
+                                C57.201,220.982,42.09,249.887,14.301,249.887z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <h2>"Everything is great about this website, we like it."</h2>
+                    <div>
+                        <h1>MARTIN MOORE</h1>
+                        <h3>Film Expert</h3>
+                    </div>
+                </article>
+    
+                <article class="comment">
+                    <img src="/assets/images/comment_image_4.webp" alt="Comments">
+                    <span>
+                        <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px"
+                            viewBox="0 20 349.078 349.078" xml:space="preserve">
+                            <g>
+                                <path d="M198.779,322.441v-58.245c0-7.903,6.406-14.304,14.304-14.304c28.183,0,43.515-28.904,45.643-85.961h-45.643
+                                c-7.897,0-14.304-6.41-14.304-14.304V26.64c0-7.9,6.406-14.301,14.304-14.301h121.69c7.896,0,14.305,6.408,14.305,14.301v122.988
+                                c0,27.349-2.761,52.446-8.181,74.611c-5.568,22.722-14.115,42.587-25.398,59.049c-11.604,16.917-26.132,30.192-43.155,39.437
+                                c-17.152,9.304-37.09,14.026-59.267,14.026C205.186,336.745,198.779,330.338,198.779,322.441z M14.301,249.887
+                                C6.404,249.887,0,256.293,0,264.185v58.257c0,7.896,6.404,14.298,14.301,14.298c22.166,0,42.114-4.723,59.255-14.026
+                                c17.032-9.244,31.558-22.508,43.161-39.437c11.29-16.462,19.836-36.328,25.404-59.061c5.423-22.165,8.178-47.263,8.178-74.6V26.628
+                                c0-7.9-6.41-14.301-14.304-14.301H14.301C6.404,12.327,0,18.734,0,26.628v122.988c0,7.899,6.404,14.304,14.301,14.304h45.002
+                                C57.201,220.982,42.09,249.887,14.301,249.887z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <h2>"The website's is fantastic! It's so much easier to navigate"</h1>
+                        <div>
+                            <h1>BRYAN SMITH</h1>
+                            <h3>Film Expert</h3>
+                        </div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- Sección last news -->
+        <section class="latest-news-container">
+            <div class="title">
+                <h1>LATEST NEWS</h1>
+                <h3>Stay tuned for all the latest entertainment news and TV premiers.</h1>
+            </div>
+
+            <div class="news-container">
+                <article class="new">
+                    <h3>HOME, GRID, NEWS & UPDATES</h3>
+                    <h2>9 FILMS ARE VYING FOR FOREIGN OSCAR NOMINATION</h2>
+                    <time>ON DEC 15, 2017</time>
+                </article>
+
+                <article class="new">
+                    <h3>HOME, GRID, NEWS & UPDATES</h3>
+                    <h2>'TITANIC', 'GOONIES' NAMED NATIONAL FILM TREASURES</h2>
+                    <time>ON DEC 15, 2017</time>
+                </article>
+
+                <article class="new">
+                    <h3>HOME, GRID, NEWS & UPDATES</h3>
+                    <h2>REUNITING AT THE 2018 COACHELLA MUSIC FESTIVAL</h2>
+                    <time>ON DEC 15, 2017</time>
+                </article>
+
+                <article class="new">
+                    <h3>HOME, GRID, NEWS & UPDATES</h3>
+                    <h2>ATTENDING 'STAR WARS' SCREENING IN 'STAR TREK' COSTUME</h2>
+                    <time>ON DEC 15, 2017</time>
+                </article>
+            </div>
+        </section>
     </main>
 </body>
 
@@ -135,7 +512,7 @@
             <a href="">ThemeRex © 2023. All rights reserved.</a>
         </div>
 
-        <div class="footer-additional-links">
+        <nav class="footer-additional-links">
             <ul>
                 <li>MOVIES</li>
                 <li><a href="">Film News</a></li>
@@ -147,13 +524,13 @@
 
             <ul>
                 <li>ADITIONAL LINKS</li>
-                <li><a href="">Film News</a></li>
-                <li><a href="">Action</a></li>
-                <li><a href="">Coming Soon</a></li>
-                <li><a href="">Most Popular</a></li>
-                <li><a href="">Top Trailers</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Service Plus</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Contacts</a></li>
             </ul>
-        </div>
+        </nav>
 
         <div class="newsletter">
             <h2>NEWSLETTER</h2>
@@ -175,11 +552,11 @@
 
         </div>
 
-        <div class="socialnetworks-buttons">
+        <nav class="socialnetworks-buttons">
             <ul>
                 <li>
                     <button class="twitter-button">
-                        Twitter
+                        <span>Twitter</span>
                         <svg class="twitter-icon" width="18" height="18" viewBox="0 -2 20 20" version="1.1"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
@@ -199,7 +576,7 @@
 
                 <li>
                     <button class="facebook-button">
-                        Facebook
+                        <span>Facebook</span>
                         <svg class="facebook-icon" width="18" height="18" viewBox="-5 0 20 20" version="1.1"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" fill-rule="evenodd">
@@ -219,7 +596,7 @@
 
                 <li>
                     <button class="instagram-button">
-                        Instagram
+                        <span>Instagram</span>
                         <svg class="instagram-icon" width="18" height="18" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -234,7 +611,7 @@
 
                 <li>
                     <button class="youtube-button">
-                        YouTube
+                        <span>YouTube</span>
                         <svg class="youtube-icon" width="18" height="18" viewBox="0 -3 20 20" version="1.1"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
@@ -252,7 +629,7 @@
                     </button>
                 </li>
             </ul>
-        </div>
+        </nav>
     </section>
 
 </footer>

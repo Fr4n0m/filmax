@@ -1,0 +1,195 @@
+.movie-info {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -37%);
+    display: flex-column;
+    align-items: left;
+    padding: 30px;
+    justify-content: center;
+    width: 100vh;
+
+    .title {
+
+        & h1 {
+            font-family: var(--font-primary);
+            font-size: var(--font-size-35);
+            color: var(--color-white);
+        }
+
+        .info-container {
+            display: flex;
+            margin-left: 580px;
+            margin-top: -78px;
+            font-family: var(--font-secondary);
+            color: var(--color-grey);
+
+            & h4 {
+                margin-left: 15px;
+                font-weight: normal;
+                font-size: var(--font-size-6);
+            }
+        }
+
+    }
+
+    .sinopsis {
+        padding: 10px 30px 10px 30px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 0 10px var(--color-white);
+        margin-top: 10px;
+
+        & h2 {
+            font-family: var(--font-lucida);
+            font-size: var(--font-size-25);
+            letter-spacing: 0.2px;
+            -webkit-text-stroke: 1px var(--color-white);
+            color: transparent;
+        }
+
+        & p {
+            font-family: var(--font-secondary);
+            font-size: var(--font-size-9);
+            letter-spacing: 0.2px;
+            line-height: 40px;
+            color: var(--color-grey);
+            font-weight: normal;
+        }
+    }
+
+    .actors {
+        padding: 10px 30px 10px 30px;
+        background-color: #212121;
+        border-radius: 10px;
+        box-shadow: 0 0 10px var(--color-white);
+        margin-top: 30px;
+
+        & h2 {
+            font-family: var(--font-lucida);
+            font-size: var(--font-size-25);
+            letter-spacing: 0.2px;
+            -webkit-text-stroke: 1px var(--color-white);
+            color: transparent;
+        }
+
+        .actors-section {
+
+            .actors-container {
+                font-family: var(--font-secondary);
+                display: flex;
+                width: 880px;
+                height: auto;
+                overflow: scroll;
+                margin-left: -25px;
+
+                & img {
+                    width: 130px;
+                    border-radius: 10px;
+                }
+
+                & h3 {
+                    font-size: var(--font-size-25);
+                    margin-left: 8px;
+                    margin-top: -35px;
+                    text-shadow: 0px 0px 10px var(--color-black);
+                    color: var(--color-white);
+                }
+
+                & h4 {
+                    font-size: var(--font-size-4);
+                    font-weight: normal;
+                    margin-top: -15px;
+                    text-shadow: 0px 0px 10px var(--color-black);
+                    color: var(--color-grey);
+                }
+
+                .tom-holland,
+                .jacob,
+                .revolori,
+                .dafoe,
+                .molina,
+                .wong,
+                .marisa,
+                .andrew,
+                .tobey {
+                    & h3 {
+                        margin-top: -65px;
+                    }
+                }
+
+                .benedictcup {
+                    & h3 {
+                        font-size: var(--font-size-22);
+                        margin-top: -55px;
+                        margin-left: 5px;
+                    }
+                }
+
+                .favreau {
+                    & h3 {
+                        margin-top: -34px;
+                        margin-left: 5px;
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+
+    .review {
+        padding: 10px 30px 10px 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px var(--color-white);
+        background-color: #212121;
+        margin-top: 30px;
+
+        & h2 {
+            font-family: var(--font-lucida);
+            font-size: var(--font-size-25);
+            letter-spacing: 0.1px;
+            -webkit-text-stroke: 1px var(--color-white);
+            color: transparent;
+        }
+
+        & p {
+            font-family: var(--font-secondary);
+            font-size: var(--font-size-9);
+            letter-spacing: 0.2px;
+            line-height: 40px;
+            color: var(--color-grey);
+            font-weight: normal;
+        }
+    }
+
+    .trailer {
+        padding: 10px 30px 10px 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px var(--color-white);
+        margin-top: 30px;
+        background-color: #212121;
+
+        & h2 {
+            font-family: var(--font-lucida);
+            font-size: var(--font-size-25);
+            letter-spacing: 0.1px;
+            -webkit-text-stroke: 1px var(--color-white);
+            color: transparent;
+        }
+
+        .video-container {
+            display: flex;
+
+            & iframe {
+                width: 400px;
+                height: 200px;
+                margin-left: -20px;
+                padding-right: 30px;
+            }
+        }
+    }
+
+}
