@@ -5,8 +5,8 @@
     margin-top: -80px;
     width: 230px;
     height: auto;
-   
-    & img {
+
+    .blog-poster {
         width: inherit;
         box-shadow: 0 0 25px var(--color-white);
         border-radius: 10px;
@@ -105,7 +105,7 @@
                 color: var(--color-white);
             }
         }
-    
+
     }
 
     .nav-aside {
@@ -125,7 +125,7 @@
             & li {
                 margin-top: 25px;
 
-                & button{
+                & button {
                     font-weight: bold;
                     font-family: var(--font-primary);
                     width: 155px;
@@ -153,8 +153,125 @@
                         background-color: var(--color-red);
                         transform: scale(0.95);
                     }
+                }
+            }
+        }
+    }
 
-                    
+    .social-networks {
+        height: 350px;
+        width: auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #212121;
+        box-shadow: 0 0 10px var(--color-white);
+
+        .twitter-icon, .facebook-icon, .instagram-icon, .youtube-icon, .tiktok-icon, .snapchat-icon {
+            position: absolute;
+            margin-top: -3px;
+        }
+
+        .twitter-icon {
+            margin-left: 19px;
+        }
+
+        .facebook-icon {
+            margin-left: 32px;
+        }
+
+        .instagram-icon {
+            margin-left: 10px;
+        }
+
+        .youtube-icon {
+            margin-left: 19px;
+            
+        }
+
+        .tiktok-icon {
+            margin-left: 15px;
+        }
+
+        .snapchat-icon {
+            position: absolute;
+            margin-left: 10px;
+            margin-top: -4px;
+        }
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+
+            & li {
+                padding-top: 20px;
+
+                & button {
+                    font-family: var(--font-primary);
+                    font-weight: bold;
+                    font-size: var(--font-size-1);
+                    text-align: left;
+                    width: 155px;
+                    height: 30px;
+                    --hover-shadows: 16px 16px 33px #121212,
+                        -16px -16px 33px #303030;
+                    border: none;
+                    border-radius: 1.1em;
+                    outline: none;
+                    cursor: pointer;
+                    background-color: #212121;
+                    color: var(--color-white);
+                    box-shadow: 13px 13px 10px #1c1c1c,
+                        -13px -13px 10px #262626;
+                    transition: all var(--transitions-time-2);
+
+                    &:hover {
+                        box-shadow: var(--hover-shadows);
+                    }
+
+                    &.twitter-aside-button:active {
+                        box-shadow: var(--hover-shadows),
+                            var(--color-twitter) 0px 0px 30px 5px;
+                        background-color: var(--color-twitter);
+                        transform: scale(0.95);
+                    }
+
+                    &.facebook-aside-button:active {
+                        box-shadow: var(--hover-shadows),
+                            var(--color-facebook) 0px 0px 30px 5px;
+                        background-color: var(--color-facebook);
+                        transform: scale(0.95);
+                    }
+
+                    &.instagram-aside-button:active {
+                        box-shadow: var(--hover-shadows),
+                            var(--color-instagram) 0px 0px 30px 5px;
+                        background-color: var(--color-instagram);
+                        transform: scale(0.95);
+                    }
+
+                    &.youtube-aside-button:active {
+                        box-shadow: var(--hover-shadows),
+                            var(--color-youtube) 0px 0px 30px 5px;
+                        background-color: var(--color-youtube);
+                        transform: scale(0.95);
+                    }
+
+                    &.tiktok-aside-button:active {
+                        box-shadow: var(--hover-shadows),
+                            var(--color-black) 0px 0px 30px 5px;
+                        background-color: var(--color-black);
+                        transform: scale(0.95);
+                    }
+
+                    &.snapchat-aside-button:active {
+                        box-shadow: var(--hover-shadows),
+                            var(--color-yellow) 0px 0px 30px 5px;
+                        background-color: var(--color-yellow);
+                        transform: scale(0.95);
+                    }
+
+
                 }
             }
         }

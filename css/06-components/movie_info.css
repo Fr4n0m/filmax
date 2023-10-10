@@ -2,7 +2,7 @@
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-35%, -37%);
+    transform: translate(-35%, -52%);
     display: flex-column;
     align-items: left;
     padding: 30px;
@@ -12,25 +12,80 @@
     .title {
 
         & h1 {
+            position: absolute;
             font-family: var(--font-primary);
             font-size: var(--font-size-35);
             color: var(--color-white);
+            margin-top: 4px;
         }
 
         .info-container {
+            font-family: var(--font-secondary);
             display: flex;
             margin-left: 580px;
-            margin-top: -78px;
-            font-family: var(--font-secondary);
+            margin-top: 90px;
             color: var(--color-grey);
+
+            & h3 {
+                font-weight: normal;
+            }
 
             & h4 {
                 margin-left: 15px;
-                font-weight: normal;
                 font-size: var(--font-size-6);
+                font-weight: normal;
             }
         }
 
+    }
+
+    .info {
+        padding: 10px 30px 10px 30px;
+        margin-top: 30px;
+        width: 880px;
+        height: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px var(--color-white);
+        background-color: #212121;
+
+        & ul {
+            display: flex;
+            justify-content: start;
+            margin-top: -10px;
+            gap: 20px;
+
+            .favorited {
+                margin-left: 20px;
+            } 
+
+            .comments {
+                margin-left: 15px;
+            }
+            
+            & li{
+                display: flex;
+                
+                & h3 {
+                    position: absolute;
+                    font-family: var(--font-primary);
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    color: var(--color-white);
+                }
+
+                & h4 {
+                    font-family: var(--font-secondary);
+                    margin-top: 32px;
+                    margin-left: 10px;
+                    color: var(--color-grey);
+                }
+
+                & img {
+                    margin-top: -10px;
+                }
+                
+            }
+        }
     }
 
     .sinopsis {
@@ -38,7 +93,7 @@
         background-color: #212121;
         border-radius: 10px;
         box-shadow: 0 0 10px var(--color-white);
-        margin-top: 10px;
+        margin-top: 30px;
 
         & h2 {
             font-family: var(--font-lucida);
@@ -65,6 +120,10 @@
         box-shadow: 0 0 10px var(--color-white);
         margin-top: 30px;
 
+        & img {
+            border: 3px solid var(--color-white);
+        }
+
         & h2 {
             font-family: var(--font-lucida);
             font-size: var(--font-size-25);
@@ -78,10 +137,10 @@
             .actors-container {
                 font-family: var(--font-secondary);
                 display: flex;
-                width: 880px;
+                width: 900px;
                 height: auto;
                 overflow: scroll;
-                margin-left: -25px;
+                margin-left: -46px;
 
                 & img {
                     width: 130px;
@@ -104,7 +163,6 @@
                     color: var(--color-grey);
                 }
 
-                .tom-holland,
                 .jacob,
                 .revolori,
                 .dafoe,
@@ -115,6 +173,13 @@
                 .tobey {
                     & h3 {
                         margin-top: -65px;
+                    }
+                }
+
+                .tomholland {
+                    & h3 {
+                        margin-top: -35px;
+                        margin-left: 5px;
                     }
                 }
 
