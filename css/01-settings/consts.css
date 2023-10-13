@@ -25,14 +25,14 @@
     --font-size-25: 25px;
     --font-size-30: 30px;
     --font-size-35: 35px;
-    
+
     /* Fonts colors*/
     --color-primary: #1A1D24;
     --color-white: white;
     --color-red: red;
     --color-red-dark: rgb(173, 0, 0);
-    --color-yellow: #f6ff00;
-    --color-yellow: #9ca100;
+    --color-pink: #FF4655;
+    --color-yellow: #f6ff00ce;
     --color-orange: #e8834f;
     --color-green: #008B47;
     --color-blue: #0A75BC;
@@ -52,6 +52,8 @@
     --color-youtube: #FF0000;
     --color-youtube-dark: #b50202;
 
+    --color-fill-rightbuttons: #0E1822;
+
     --color-transparent: transparent;
     --color-transparent-white: #ffffff32;
     --color-transparent-black: #0000005c;
@@ -64,4 +66,3 @@
     --transitions-time-3: 3s;
     --transitions-time-4: 1s;
 }
-

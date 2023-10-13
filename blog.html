@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <img src="/assets/images/logo.webp" class="logo" /> <!-- LOGO -->
         <nav class="center-menu"> <!-- Center menu -->
             <ul>
@@ -114,6 +114,44 @@
     </header>
 
     <main>
+        <!-- scroll-up button -->
+        <a href="#header">
+            <button class="scroll-button">
+                <div class="scroll-button-box">
+                    <span class="button-elem">
+                        <img src="assets/icons/scrollup.svg" alt="Scroll up">
+                    </span>
+                    <span class="button-elem">
+                        <img src="assets/icons/scrollup.svg" alt="Scroll up">
+                    </span>
+                </div>
+            </button>
+        </a>
+
+
+        <!-- Right buttons -->
+        <div class="right-panel">
+            <ul>
+                <li class="button-borders">
+                    <!-- <span><h3>BUY THEME</h3></span> -->
+                    <button>
+                        <img src="assets/icons/buy.svg" alt="Buy theme">
+                    </button>
+                </li>
+                <li class="button-borders">
+                    <!-- <span><h3>OUR BESTSELLERS</h3></span> -->
+                    <button>
+                        <img src="assets/icons/bestsellers.svg" alt="Bestsellers">
+                    </button>
+                </li>
+                <li class="button-borders">
+                    <!-- <span><h3>HIDE PANEL</h3></span> -->
+                    <button>
+                        <img src="assets/icons/hidepanel.svg" alt="Hide panel">
+                    </button>
+                </li>
+            </ul>
+        </div>
 
         <!-- banner película y aside -->
         <section>
@@ -165,24 +203,32 @@
                 <nav class="nav-aside">
                     <ul>
                         <li>
-                            <button>
-                                Sinopsis
-                            </button>
+                            <a href="#sinopsis">
+                                <button>
+                                    Sinopsis
+                                </button>
+                            </a>
                         </li>
                         <li>
-                            <button>
-                                Actors
-                            </button>
+                            <a href="#actors">
+                                <button>
+                                    Actors
+                                </button>
+                            </a>
                         </li>
                         <li>
-                            <button>
-                                Comments
-                            </button>
+                            <a href="#comments">
+                                <button>
+                                    Comments
+                                </button>
+                            </a>
                         </li>
                         <li>
-                            <button>
-                                Latest News
-                            </button>
+                            <a href="#last-news">
+                                <button>
+                                    Latest News
+                                </button>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -195,21 +241,21 @@
                                 <img class="twitter-icon" src="assets/icons/twitter.svg" alt="Twitter">
                             </button>
                         </li>
-        
+
                         <li>
                             <button class="facebook-aside-button">
                                 <span>@NoWayHome</span>
                                 <img class="facebook-icon" src="assets/icons/facebook.svg" alt="Facebook">
                             </button>
                         </li>
-        
+
                         <li>
                             <button class="instagram-aside-button">
                                 <span>@NWH_Spiderman</span>
                                 <img class="instagram-icon" src="assets/icons/instagram.svg" alt="Instagram">
                             </button>
                         </li>
-        
+
                         <li>
                             <button class="youtube-aside-button">
                                 <span>@spiderman_sony</span>
@@ -232,6 +278,53 @@
                         </li>
                     </ul>
                 </nav>
+
+                <section class="rating-container">
+                    <span>YOUR RATING!</span>
+                    <div class="rating">
+                        <input type="radio" id="star-1" name="star-radio" value="star-1">
+                        <label for="star-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-2" name="star-radio" value="star-1">
+                        <label for="star-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-3" name="star-radio" value="star-1">
+                        <label for="star-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-4" name="star-radio" value="star-1">
+                        <label for="star-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-5" name="star-radio" value="star-1">
+                        <label for="star-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                    </div>
+                </section>
+
             </aside>
         </section>
 
@@ -297,7 +390,7 @@
             </section>
 
             <!-- Sec sinopsis -->
-            <section class="sinopsis">
+            <section class="sinopsis" id="sinopsis">
                 <h2>SINOPSIS</h2>
                 <p>
                     "Spider-Man: No Way Home" es una película de superhéroes basada en el personaje de Marvel Comics,
@@ -340,7 +433,7 @@
             </section>
 
             <!-- Sec actores -->
-            <section class="actors">
+            <section class="actors" id="actors">
                 <h2>ACTORS AND ACTRESSES</h2>
 
                 <section class="actors-section">
@@ -444,24 +537,24 @@
             <section class="trailer">
                 <h2>TRAILER</h2>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ldMn-1iQzKE" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Df00ZNYEcAY&pp=ygUTdHJhaWxlciBubyB3YXkgaG9tZQ%3D%3D" frameborder="0"
-                        allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=iaD2f2O9wGk&pp=ygUTdHJhaWxlciBubyB3YXkgaG9tZQ%3D%3D" frameborder="0"
-                        allowfullscreen></iframe>
+                    <iframe width="530" height="285" src="https://www.youtube.com/embed/ldMn-1iQzKE?si=D_JLBPFSDXmRpKY7"
+                        frameborder="0" allowfullscreen></iframe>
+                    <iframe width="530" height="285" src="https://www.youtube.com/embed/JfVOs4VSpmA?si=SFf4goX5AL5Bvb5r"
+                        frameborder="0" allowfullscreen></iframe>
+                    <iframe width="530" height="285" src="https://www.youtube.com/embed/r6t0czGbuGI?si=GuFq9eDik8fV-gnn"
+                        frameborder="0" allowfullscreen></iframe>
                 </div>
             </section>
         </section>
 
         <!-- Sección comentarios -->
-        <section class="comments-blog-container"> <!-- comments_section -->
+        <section class="comments-blog-container" id="comments"> <!-- comments_section -->
             <article class="comment">
                 <img class="comment-img" src="/assets/images/comment_image_1.webp" alt="Comments">
                 <span>
                     <img src="assets/icons/comillas.svg" alt="Comment">
                 </span>
-                <h2>"It was so much fun for all of my friends and family."</h2>
+                <h2>"¡No Way Home supera todas las expectativas!"</h2>
                 <div>
                     <h1>LISA MORRISON</h1>
                     <h3>Film Expert</h3>
@@ -473,7 +566,7 @@
                 <span>
                     <img src="assets/icons/comillas.svg" alt="Comment">
                 </span>
-                <h2>"I appreciate the high quality of your products."</h2>
+                <h2>"Esta película es un regalo. Qué emoción y nostalgia."</h2>
                 <div>
                     <h1>MIKE STEVENS</h1>
                     <h3>Film Expert</h3>
@@ -485,7 +578,7 @@
                 <span>
                     <img src="assets/icons/comillas.svg" alt="Comment">
                 </span>
-                <h2>"Everything is great about this website, we like it."</h2>
+                <h2>"Una obra maestra del cine de superhéroes."</h2>
                 <div>
                     <h1>MARTIN MOORE</h1>
                     <h3>Film Expert</h3>
@@ -497,7 +590,7 @@
                 <span>
                     <img src="assets/icons/comillas.svg" alt="Comment">
                 </span>
-                <h2>"The website's is fantastic! It's so much easier to navigate"</h1>
+                <h2>"La mejor película de Spider-Man hasta la fecha."</h1>
                     <div>
                         <h1>BRYAN SMITH</h1>
                         <h3>Film Expert</h3>
@@ -505,8 +598,65 @@
             </article>
         </section>
 
+        <!-- Sección con banner de película -->
+        <section class="banner">
+            <section>
+                <div class="banner-movie">
+                    <div class="shine"></div>
+                    <div class="text">
+                        <h1>Spider-Man: No Way Home</h1>
+                        <h3>Action, Adventure, Sci-Fi</h3>
+                        <p>Spider-Man: No Way Home es la épica reunión de Spider-Man con villanos de otros universos, un
+                            emocionante
+                            viaje lleno de acción y nostalgia que dejará a los fans en vilo
+                        </p>
+
+                        <div id="player" class="pop-up-player">
+                            <script>
+                                function abrirVideo() {
+                                    var videoID = 'D_JLBPFSDXmRpKY7';
+                                    var embedURL = 'https://www.youtube.com/embed/ldMn-1iQzKE?si=D_JLBPFSDXmRpKY7' + videoID + '?autoplay=1';
+
+                                    var iframe = document.createElement('iframe');
+                                    iframe.setAttribute('width', '430');
+                                    iframe.setAttribute('height', '250');
+                                    iframe.setAttribute('src', embedURL);
+                                    iframe.setAttribute('frameborder', '0');
+                                    iframe.setAttribute('allowfullscreen', '');
+
+                                    document.getElementById('player').appendChild(iframe);
+                                }
+                            </script>
+                        </div>
+
+                        <button class="watchtrailer-banner-button" onclick="abrirVideo()"> WATCH TRAILER
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill="currentColor"
+                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="pg">
+                        <img src="assets/images/spiderman.webp" alt="Spider-man">
+                    </div>
+                    <div class="pg-2">
+                        <img src="assets/images/spiderman_2.webp" alt="Spider-man">
+                    </div>
+                    <div class="pg-3">
+                        <img src="assets/images/spiderman_3.webp" alt="Spider-man">
+
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
         <!-- Sección last news -->
-        <section class="latest-news-container">
+        <section class="latest-news-container" id="last-news">
             <div class="title">
                 <h1>LATEST NEWS</h1>
                 <h3>Stay tuned for all the latest entertainment news and TV premiers.</h1>
@@ -585,6 +735,9 @@
                     <path d="M3 7l9 6l9 -6"></path>
                 </svg>
             </div>
+
+            <p>¿Amas el cine? Únete a nuestra newsletter para mantenerte actualizado sobre las últimas películas,
+                estrenos y ofertas exclusivas. Suscríbete ahora y no te pierdas ningún detalle del mundo del cine.</p>
 
 
         </div>

@@ -1,16 +1,23 @@
 
 @import url(01-settings/consts.css);
+
 @import url(03-generic/layout.css);
 @import url(03-generic/reset.css);
+
+@import url(04-elements/scroll_up_button.css);
+@import url(04-elements/right_buttons.css);
+
 @import url(05-objects/header.css);
 @import url(05-objects/footer.css);
 @import url(05-objects/comments_section.css);
 @import url(05-objects/slider_section.css);
 @import url(05-objects/posters_section.css);
 @import url(05-objects/latest_news_section.css);
+
 @import url(06-components/first_section.css);
 @import url(06-components/news_section.css);
-@import url(06-components/banner_samurai_section.css);
+@import url(06-components/banner_samurai.css);
+@import url(06-components/banner_movie.css);
 @import url(06-components/banner_spiderman.css);
 @import url(06-components/blog_aside.css);
 @import url(06-components/movie_info.css);

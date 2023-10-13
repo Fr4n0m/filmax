@@ -111,6 +111,12 @@
                 cursor: pointer;
             }
         }
+
+        & p {
+            font-size: var(--font-size-4);
+            width: 180px;
+            color: var(--color-grey);
+        }
     }
 
     .socialnetworks-buttons {
