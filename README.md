@@ -1,14 +1,16 @@
-# Filmax
-
 <div align="center">
 
-Bienvenido a Filmax, tu fuente completa de entretenimiento cinematográfico. Explora noticias, disfruta de los últimos trailers y sumérgete en reseñas de películas populares. Nuestra página está diseñada para ofrecerte una experiencia única y fácil de usar.
+# Filmax
 
 </div>
 
-## Características
+Bienvenido a Filmax, tu fuente completa de entretenimiento cinematográfico. Explora noticias, disfruta de los últimos trailers y sumérgete en reseñas de películas populares. Nuestra página está diseñada para ofrecerte una experiencia única y fácil de usar.
 
 <div align="center">
+
+## Características
+
+</div>
 
 - **Navegación Intuitiva:** Encuentra fácilmente lo que buscas a través de nuestra navegación simple con enlaces a diferentes secciones en el encabezado.
 - **Sección de Noticias:** Mantente actualizado con las últimas noticias de cine.
@@ -16,29 +18,29 @@ Bienvenido a Filmax, tu fuente completa de entretenimiento cinematográfico. Exp
 - **Sección de Reseñas:** Explora reseñas detalladas de películas populares.
 - **Página de Detalle:** Sumérgete en la experiencia cinematográfica con nuestra página de detalle en el archivo `blog.html`.
 
-</div>
+<div align="center">
 
 ## Tecnologías Utilizadas
 
-<div align="center">
+</div>
 
 - HTML
 - CSS
 - JavaScript
 
-</div>
+<div align="center">
 
 ## Instalación
 
-<div align="center">
+</div>
 
 No es necesaria ninguna instalación para explorar nuestra página web. Abre el archivo `index.html` en tu navegador favorito y comienza tu viaje cinematográfico.
 
-</div>
+<div align="center">
 
 ## Uso
 
-<div align="center">
+</div>
 
 - **Navegación Principal:** Utiliza los enlaces en el encabezado para explorar las diferentes secciones.
 - **Sección de Noticias:** Lee las últimas noticias de cine y mantente informado.
@@ -46,104 +48,99 @@ No es necesaria ninguna instalación para explorar nuestra página web. Abre el 
 - **Sección de Reseñas:** Explora opiniones detalladas sobre películas populares.
 - **Página de Detalle:** Para obtener información más detallada sobre una película, visita nuestra página de detalle en `blog.html`.
 
-</div>
+<div align="center">
 
 ## Página de Detalle
 
-<div align="center">
+</div>
 
 Sumérgete en el mundo cinematográfico visitando nuestra página de detalle en `blog.html`. Obtén información adicional sobre tus películas favoritas, descubre curiosidades y encuentra detalles exclusivos.
 
-</div>
+<div align="center">
 
 ## Contribución
 
-<div align="center">
+</div>
 
 ¿Quieres ser parte de Filmax? ¡Te invitamos a contribuir! Envía un pull request siguiendo nuestras guías de estilo y mejores prácticas de código.
 
-</div>
+<div align="center">
 
 ## Licencia
 
-<div align="center">
+</div>
 
 Filmax opera bajo la Licencia MIT. Para más detalles, consulta el archivo `LICENSE`. ¡Disfruta de tu experiencia cinematográfica en Filmax!
 
-</div>
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<div align="center">
 
 # Filmax
 
-<div align="center">
+</div>
 
 Welcome to Filmax, your comprehensive source for cinematic entertainment. Explore news, enjoy the latest trailers, and immerse yourself in reviews of popular films. Our page is designed to provide you with a unique and user-friendly experience.
 
-</div>
+<div align="center">
 
 ## Features
 
-<div align="center">
+</div>
 
 - **Intuitive Navigation:** Easily find what you're looking for through our simple navigation with links to different sections in the header.
 - **News Section:** Stay updated with the latest cinema news.
 - **Trailers Section:** Discover the latest trailers for movies that will excite you.
 - **Reviews Section:** Explore detailed reviews of popular films.
 - **Detail Page:** Immerse yourself in the cinematic experience with our detailed page in the `blog.html` file.
-
-</div>
+<div align="center">
 
 ## Technologies Used
 
-<div align="center">
+</div>
 
 - HTML
 - CSS
 - JavaScript
-
-</div>
+<div align="center">
 
 ## Installation
 
-<div align="center">
+</div>
 
 No installation is required to explore our webpage. Open the `index.html` file in your favorite browser and start your cinematic journey.
 
-</div>
+<div align="center">
 
 ## Usage
 
-<div align="center">
+</div>
 
 - **Main Navigation:** Use the links in the header to explore different sections.
 - **News Section:** Read the latest cinema news and stay informed.
 - **Trailers Section:** Enjoy the latest movie trailers directly from our page.
 - **Reviews Section:** Explore detailed opinions about popular movies.
 - **Detail Page:** For more detailed information about a movie, visit our detail page in `blog.html`.
-
-</div>
+<div align="center">
 
 ## Detail Page
 
-<div align="center">
+</div>
 
 Immerse yourself in the cinematic world by visiting our detail page in `blog.html`. Get additional information about your favorite movies, discover trivia, and find exclusive details.
 
-</div>
+<div align="center">
 
 ## Contribution
 
-<div align="center">
+</div>
 
 Do you want to be part of Filmax? We invite you to contribute! Submit a pull request following our style guides and best coding practices.
 
-</div>
+<div align="center">
 
 ## License
 
-<div align="center">
+</div>
 
 Filmax operates under the MIT License. For more details, refer to the `LICENSE` file. Enjoy your cinematic experience at Filmax!
-
-</div>
