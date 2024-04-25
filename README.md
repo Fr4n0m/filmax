@@ -7,6 +7,11 @@
 Bienvenido a Filmax, tu fuente completa de entretenimiento cinematográfico. Explora noticias, disfruta de los últimos trailers y sumérgete en reseñas de películas populares. Nuestra página está diseñada para ofrecerte una experiencia única y fácil de usar.
 
 <div align="center">
+  <img src="/preview images/filmax_home_preview.jpeg" alt="Home de Filmax">
+  <img src="/preview images/filmax_blog_preview.jpeg" alt="Blog Spiderman - No way Home">
+</div>
+
+<div align="center">
 
 ## Características
 
@@ -34,7 +39,7 @@ Bienvenido a Filmax, tu fuente completa de entretenimiento cinematográfico. Exp
 
 </div>
 
-No es necesaria ninguna instalación para explorar nuestra página web. Abre el archivo `index.html` en tu navegador favorito y comienza tu viaje cinematográfico.
+No es necesaria ninguna instalación para explorar nuestra página web.
 
 <div align="center">
 
